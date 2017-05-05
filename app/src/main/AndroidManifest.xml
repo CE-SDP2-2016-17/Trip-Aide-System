@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.xtremecoders.freedom">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.javapapers.currentlocationinmap.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <receiver android:name=".MyBroadcastReceiver"></receiver>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/travel_1x"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="@string/api_keyk" />
+
+        <activity android:name=".Activities.SplashActivity">
+
+        </activity>
+        <activity android:name=".Activities.LoginActivity"
+            android:windowSoftInputMode="adjustResize"></activity>
+        <activity android:name=".Activities.SignUpActivity"
+            android:windowSoftInputMode="adjustResize"></activity>
+        <activity android:name=".Activities.HomePage" />
+
+
+
+        <activity android:name=".Activities.MapActivity" />
+        <activity
+            android:name=".Activities.BaseActivity"
+            android:label="@string/title_activity_base"
+            android:theme="@style/AppTheme">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity android:name=".Activities.AboutUsActivity" />
+        <activity android:name=".Activities.PrivacyPolicyActivity" />
+        <activity android:name=".Activities.Example"></activity>
+        <activity android:name=".Activities.WeatherActivity"
+            android:screenOrientation="portrait">
+
+        </activity>
+    </application>
+
+</manifest>

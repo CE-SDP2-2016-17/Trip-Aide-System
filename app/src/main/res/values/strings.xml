@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">Travel Aide</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_base">BaseActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--signup-->
+    <string name="signup_fb">Sign up with Facebook</string>
+    <string name="signup_email">Sign up with Email</string>
+    <string name="alredy_signin">Already a member? <u>Sign in</u></string>
+    <string name="new_zepper">New to Zepper? <u>Sign up</u></string>
+
+    <!--Signup-->
+    <string name="head_upload_pic">Upload profile picture</string>
+    <string name="hint_fnmae">Name</string>
+    <string name="hint_lname">Last name</string>
+    <string name="title_activity_view_navigation_drawer">ViewNavigationDrawer</string>
+
+    <string name="label_btn_find">Find</string>
+
+
+    <!--Sign in-->
+    <string name="hint_email">Email</string>
+    <string name="hint_pswd">Password</string>
+    <string name="head_signin">Sign in</string>
+    <string name="head_forgot_pswd">Forgot password?</string>
+
+    <!--Toolbar-->
+    <string name="head_signup">Sign up</string>
+
+    <string name="str_btn_find">Find</string>
+    <string-array name="place_type">
+        <item>airport</item>
+        <item>atm</item>
+        <item>bank</item>
+        <item>bus_station</item>
+        <item>church</item>
+        <item>doctor</item>
+        <item>hospital</item>
+        <item>mosque</item>
+        <item>movie_theater</item>
+        <item>hindu_temple</item>
+        <item>restaurant</item>
+    </string-array>
+
+    <string-array name="place_type_name">
+        <item>Airport</item>
+        <item>ATM</item>
+        <item>Bank</item>
+        <item>Bus Station</item>
+        <item>Church</item>
+        <item>Doctor</item>
+        <item>Hospital</item>
+        <item>Mosque</item>
+        <item>Movie Theater</item>
+        <item>Hindu Temple</item>
+        <item>Restaurant</item>
+    </string-array>
+
+    <string name="about_us">Travel Aide is an Android App developed especially for helping people who just love to travel. </string>
+
+    <string name="runtime_permissions_txt">Please enable ALL permissions from app settings.</string>
+
+
+    <!--Weather Strings-->
+    <string name="change_city">Change city</string>
+
+    <!-- Put your own APP ID here -->
+    <string name="open_weather_maps_app_id">f03d691399fdacf7eff7e90ff3aac071</string>
+
+    <string name="weather_sunny">&#xf00d;</string>
+    <string name="weather_clear_night">&#xf02e;</string>
+
+    <string name="weather_foggy">&#xf014;</string>
+    <string name="weather_cloudy">&#xf013;</string>
+    <string name="weather_rainy">&#xf019;</string>
+    <string name="weather_snowy">&#xf01b;</string>
+    <string name="weather_thunder">&#xf01e;</string>
+    <string name="weather_drizzle">&#xf01c;</string>
+
+    <string name="place_not_found">Sorry, no weather data found.</string>
+</resources>
